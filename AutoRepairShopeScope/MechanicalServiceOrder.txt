@@ -1,0 +1,11 @@
+Sistema de controle e gerenciamento de execucao de orderns de service em uma oficina mecanica
+Clientes levam veiculos a oficina mecanica para serem consertados ou para passarem por revisoes periodicas
+Cada Veicuola eh designado a uma equipe de mecanicos que identifica os serviso a serem executados e preenche uma Ordem de Servico com data de entrega.
+A partir da ordem de servico, calcula-se o valor de cada service, colsutando-se uma tabela de reerencia de mao de obra
+O valor de cada peca tambem ira compor a ordem de servico
+O cliente autoriza a execucao dos servicos
+A mesma equipe avalia e executa os servicos
+Os mecanicos possuem codigo, nome, endereco e especialidade
+Cada ordem de servico possui: numero, data de emissao, um valor, status e uma para conclusao dos trabalhos
+Uma ordem de servico pode ser composta por varios servicos e um mesmo servico pode estar contido em amis de uma ordem de servico
+Uma ordem de servico pode ter varios tipos de des peca e uma peca pode estar presente em mais de uma ordem de servico
